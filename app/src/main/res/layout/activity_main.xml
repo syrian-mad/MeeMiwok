@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.meemiwok.MainActivity">
+
+    <TextView
+        android:id="@+id/numbers_main_text"
+        style="@style/main_xml_style"
+        android:background="@color/number_background"
+        android:text="@string/numbers_string"
+        />
+
+    <TextView
+        android:id="@+id/family_main_text"
+        style="@style/main_xml_style"
+        android:background="@color/family_background"
+        android:text="@string/family_string" />
+
+    <TextView
+        android:id="@+id/colors_main_text"
+        style="@style/main_xml_style"
+        android:background="@color/colors_background"
+        android:text="@string/colors_string" />
+
+    <TextView
+        android:id="@+id/phrases_main_text"
+        style="@style/main_xml_style"
+        android:background="@color/phrase_background"
+        android:text="@string/phrase_string" />
+</LinearLayout>
